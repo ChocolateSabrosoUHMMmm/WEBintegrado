@@ -1,0 +1,47 @@
+<html Lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/iniciar.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <section>
+
+        
+        <form>
+            <h1>Registrarse</h1>
+            <div class="inputbox">
+                <ion-icon name="name-outline"></ion-icon>
+                <input type="text" required >
+                <label for="">Nombres</label>
+
+            </div>
+            <div class="inputbox">
+                <ion-icon name="apellido-outline"></ion-icon>
+                <input type="text" required >
+                <label for="">Apellidos</label>
+
+            </div>
+
+            <div class="inputbox">
+                <ion-icon name="gmail-outline"></ion-icon>
+                <input type="email" required >
+                <label for="">Gmail</label>
+            </div>
+
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" required>
+                <label for="">Password</label>
+            </div>
+            <button>Registrarse</button>
+            <button>Registrarse con gmail</button>
+                <p>¿Posees una cuenta?<a class="link" href="iniciar.html">Inicie Sesión</a></p>
+                <p>Al registrarse, usted acepta nuetras politicas de privacidad y uso.</p>
+            </div>
+        </form>
+    </section>
+    </body>
+</html>
